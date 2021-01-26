@@ -1,0 +1,92 @@
+<!-- Author: Axel Antoine
+https://axantoine.com
+
+Loki, Inria project-team with Université de Lille
+within the Joint Research Unit UMR 9189 CNRS-Centrale
+Lille-Université de Lille, CRIStAL.
+https://loki.lille.inria.fr
+
+LICENCE: Licence.md -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taxonomy Explorer</title>
+<meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
+  <link href="./assets/main.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid" id="main_container" >
+    <div class="row">
+      <div class="col-12 alert alert-secondary">
+        <h3 class="alert-heading">Taxonomy Explorer</h3>
+        <span class="badge">v2020.09.03</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 alert alert-success">
+        <h6 class="alert-heading">Stats:</h6>
+        <div id="infos">
+        </div>
+        <hr>
+        <h6 class="alert-heading">Selected codes</h6>
+        <div id="selected_codes">
+        </div>
+      </div>
+    </div>
+    <div class="row" >
+      <div class="col-4">
+        <h6 class="alert alert-primary py-1 text-center"><i>what</i> codes</h6>
+      </div>
+      <div class="col-4">
+        <h6 class="alert alert-danger py-1 text-center"><i>how</i> codes</h6>
+      </div>
+      <div class="col-4">
+        <h6 class="alert alert-warning py-1 text-center">images</h6>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 text-center">
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-outline-secondary btn-sm">
+            <input type="radio" id="option1" autocomplete="off" onChange="what_codes_sort_type_changed('alpha')"> A-Z
+          </label>
+          <label class="btn btn-outline-secondary btn-sm active">
+            <input type="radio" id="option2" autocomplete="off" onChange="what_codes_sort_type_changed('percentage')" checked> %
+          </label>
+        </div>
+      </div>
+      <div class="col-4 text-center" id='content_action_row'>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-outline-secondary btn-sm">
+            <input type="radio" id="option1" autocomplete="off" onChange="how_codes_sort_type_changed('alpha')"> A-Z
+          </label>
+          <label class="btn btn-outline-secondary btn-sm active">
+            <input type="radio" id="option2" autocomplete="off" onChange="how_codes_sort_type_changed('percentage')" checked> %
+          </label>
+        </div>
+      </div>
+      <div class="col-4 text-center">
+        <button type="button" class="btn btn-outline-secondary btn-sm" onclick="refresh_images()">New images</button>
+      </div>
+    </div>
+    <div class="row" id='content'>
+      <div class="col-4 list-group list-group-root well" id="what_codes">
+      </div>
+      <div class="col-4 list-group list-group-root well" id="how_codes">
+      </div>
+      <div data-spy="scroll" class="col-4" id="images">
+      
+      </div>    
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> </script>
+  <script src="assets/main.js"> </script>
+</body>
+</html>
+

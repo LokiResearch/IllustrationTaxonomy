@@ -1,0 +1,146 @@
+/*Author: Axel Antoine
+https://axantoine.com
+
+Loki, Inria project-team with Université de Lille
+within the Joint Research Unit UMR 9189 CNRS-Centrale
+Lille-Université de Lille, CRIStAL.
+https://loki.lille.inria.fr
+
+LICENCE: Licence.md*/
+
+  html, body {
+    height: 100%
+  }
+
+  .svg-tooltip {
+  }
+
+  .tooltip {
+    border: solid;
+    background-color:white;
+    border-width: 1px;
+    border-radius : 5px;
+  }
+
+  .node {
+      cursor: pointer;
+  }
+
+  .node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 3px;
+  }
+
+  .node text {
+    font: 12px sans-serif;
+  }
+
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+  }
+
+
+#chart {
+    max-width: 100%;
+    min-height: 100%;
+    overflow:auto;
+    margin: 1em auto auto auto;
+  }
+
+  text {
+    pointer-events: none;
+  }
+  .navmenu text {
+    font-weight: bold;
+  }
+  rect {
+    fill: #cccccc;
+    /*stroke: #fff;*/
+    /*stroke-width: 1px;*/
+  }
+  .navmenu rect {
+    stroke:black;
+    stroke-width: 1px;
+  }
+
+  .infoText rect {
+    fill: #dddddd;
+  }
+
+  .navmenu:hover rect {
+    fill: black;
+    opacity: 0.4;
+  }
+  .children rect.parent,
+  .navmenu rect {
+    cursor: pointer;
+  }
+
+  .parent_rect {
+    fill: white;
+    stroke: white;
+    stroke-width: 1em;
+  }
+
+  .hover_rect {
+    fill:black;
+    opacity:0;
+  }
+
+  .hover_rect:hover {
+    opacity:0.1;
+  }
+  
+  .child_rect {
+    stroke: white;
+    stroke-width: 0.2em;
+  }
+
+  .textdiv {
+      font-family: "Open Sans",Helvetica,Arial,sans-serif;
+      font-size: 14px;
+      /*padding: 7px;*/
+  }
+
+  .textdiv .title {
+      font-size: 102%;
+      font-weight: bold;
+      font-size:11px !important;
+      text-align:center;
+
+  }
+  .textdiv p{
+      line-height: 13px;
+      margin:0 0 4px !important;
+      padding:0px;
+      font-size:10px !important;
+      background-color: #8fbacd;
+  }
+
+  .parent_title p{
+    padding:6px;
+  }
+
+ .child_title p{
+  }
+
+
+    /*.legend {
+    margin-bottom:8px !important;
+  }
+  .legend rect {
+    stroke-width: 0px;
+  }
+  .legend text {
+    text-anchor: middle;
+    pointer-events: auto;
+    font-size: 13px;
+    font-family: sans-serif;
+    fill: black;
+  }
+  .form-group {
+      text-align:left;
+  }*/

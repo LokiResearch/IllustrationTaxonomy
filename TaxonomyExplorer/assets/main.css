@@ -1,0 +1,99 @@
+/*Author: Axel Antoine
+https://axantoine.com
+
+Loki, Inria project-team with Université de Lille
+within the Joint Research Unit UMR 9189 CNRS-Centrale
+Lille-Université de Lille, CRIStAL.
+https://loki.lille.inria.fr
+
+LICENCE: Licence.md*/
+
+html, body {
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px; /* or 950px */
+}
+
+.list-group.list-group-root {
+    padding: 0;
+    overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+    margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+    border-radius: 0;
+    border-width: 1px 0 0 0;
+}
+
+#main_container {
+    padding-top: 1em;
+}
+
+.list-group > .list-group {
+    margin-left: 2em;
+}
+
+.list-group-item .fa {
+    margin-right: 1em;
+}
+
+.checkbox {
+    margin-right: 1em;
+}
+
+.selected-code-item {
+    margin-right:0.5em;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+#content_action_row {
+  padding-bottom: 0.3em;
+}
+
+#what_codes {
+  padding: 0.3em;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+#how_codes {
+  padding: 0.3em;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+#images {
+  padding: 0.3em;
+  max-height: 70vh;
+  overflow-y: scroll;
+
+  /*padding: 0.3em;*/
+}
+
+#content {
+    max-height: 70vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  padding-bottom: 1em;
+}
+
+.row_image_info {
+  padding-bottom: 0.3em;
+}
+

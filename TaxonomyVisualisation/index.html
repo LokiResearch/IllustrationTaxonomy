@@ -1,0 +1,33 @@
+<!-- Author: Axel Antoine
+https://axantoine.com
+
+Loki, Inria project-team with Université de Lille
+within the Joint Research Unit UMR 9189 CNRS-Centrale
+Lille-Université de Lille, CRIStAL.
+https://loki.lille.inria.fr
+
+LICENCE: Licence.md -->
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="assets/main.css">
+<html>
+<body onload="OnLoad()">
+<div>
+    Visualisation type:
+    <input type="radio" name="visu_type" value="tree" id="tree" onchange="VisuChanged()">
+    <label for="tree">Tree</label>
+    <input type="radio" name="visu_type" value="map" id="map" onchange="VisuChanged()" checked="checked">
+    <label for="map">Map</label>
+</div>
+
+<p id="controls"></p>
+<p id="chart"></p>
+
+<script src="assets/d3.v4.min.js"></script>
+<script src="assets/main.js"></script>
+<script src="assets/treeview.js"></script>
+<script src="assets/mapview.js"></script>
+</body>
+</html>
+
+

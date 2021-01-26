@@ -1,0 +1,1109 @@
+{
+ "captions": {},
+ "codes": {
+  "name": "Taxonomy",
+  "key": false,
+  "textinfo": "These different categories present the essential elements to describe and represent interactive scenarios.",
+  "children": [
+   {
+    "name": "composition",
+    "key": false,
+    "textinfo": "Key categories that describe the main structure of a figure.",
+    "children": [
+     {
+      "name": "point of view",
+      "key": true,
+      "textinfo": "What is the point of view of the figure? Where is the camera?",
+      "children": [
+       {
+        "name": "___ignore___",
+        "key": false,
+        "textinfo": "Fake code allowing to force the indicator to be green",
+        "children": []
+       },
+       {
+        "name": "1st person",
+        "key": false,
+        "textinfo": "The point of view of the scene is through the eyes of the user.",
+        "children": []
+       },
+       {
+        "name": "3rd person",
+        "key": false,
+        "textinfo": "The point of view of the scene is in front of or from one side of the user.",
+        "children": []
+       },
+       {
+        "name": "overshoulder 3/4",
+        "key": false,
+        "textinfo": "The point of view of the scene if from the back of the user, usually palying with perspective.",
+        "children": []
+       },
+       {
+        "name": "top",
+        "key": false,
+        "textinfo": "The point of view of the scene is from the top.",
+        "children": []
+       },
+       {
+        "name": "UI only",
+        "key": false,
+        "textinfo": "The illustration is only conposed of the UI, there is no 3D scene. The point of view is always TOP making the UI in the camera plan. We can admit representations of fingers and hands.",
+        "children": []
+       }
+      ]
+     },
+     {
+      "name": "layout",
+      "key": false,
+      "textinfo": "How is organized the figure?",
+      "children": [
+       {
+        "name": "number of frames",
+        "key": true,
+        "textinfo": "Number of frames composing the illustrations. From 1 to N.",
+        "children": [
+         {
+          "name": "___ignore___",
+          "key": false,
+          "textinfo": "Fake code allowing to force the indicator to be green",
+          "children": []
+         },
+         {
+          "name": "one frame",
+          "key": false,
+          "textinfo": "Figure is structured with one frame.",
+          "children": []
+         },
+         {
+          "name": "multi frames",
+          "key": false,
+          "textinfo": "Figure is structured with multiple frames.",
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "sub-framing",
+        "key": false,
+        "textinfo": "Frames that are included in the frame space and do not belong the represented scene itself.",
+        "children": [
+         {
+          "name": "inset (PiP)",
+          "key": false,
+          "textinfo": "A frame is included is another frame's space with a different point of view.",
+          "children": []
+         },
+         {
+          "name": "magnification lense",
+          "key": false,
+          "textinfo": "A frame (whatever its nature) is included is another frame's space. This inclusion does not belong to the scene, and does represent something in the scene and has been made to help the reader understand the figure.",
+          "children": []
+         },
+         {
+          "name": "UI embedded",
+          "key": false,
+          "textinfo": "The UI is embedded in the 3D scene, possibly using perspective.",
+          "children": []
+         },
+         {
+          "name": "UI overlay",
+          "key": false,
+          "textinfo": "The UI has been added on top of the scene. Mostly used to illustrate the user view from a AR system.",
+          "children": []
+         },
+         {
+          "name": "side-by-side",
+          "key": false,
+          "textinfo": "The frame is composed of multiple sub-frames in a side-by-side disposition. (vertical/horizontal)",
+          "children": []
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "visual characteristics",
+    "key": false,
+    "textinfo": "Key visual characteristics that compose an illustration.",
+    "children": [
+     {
+      "name": "type",
+      "key": true,
+      "textinfo": "The different types of elements that compose a figure.",
+      "children": [
+       {
+        "name": "___ignore___",
+        "key": false,
+        "textinfo": "Fake code allowing to force the indicator to be green",
+        "children": []
+       },
+       {
+        "name": "drawing",
+        "key": false,
+        "textinfo": "The element is a drawn object (representation of a person, a smartphone, a computer, a room, etc. ).",
+        "children": [
+         {
+          "name": "realism",
+          "key": false,
+          "textinfo": "Not specified",
+          "children": [
+           {
+            "name": "simplistic",
+            "key": false,
+            "textinfo": "Very simplistic drawings are used. ",
+            "children": []
+           },
+           {
+            "name": "realistic",
+            "key": false,
+            "textinfo": "Drawings are close to the reality. ",
+            "children": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "UI",
+        "key": false,
+        "textinfo": "The element is a UI",
+        "children": [
+         {
+          "name": "drawing",
+          "key": false,
+          "textinfo": "The UI has been drawn (by hand or not).",
+          "children": []
+         },
+         {
+          "name": "rendering",
+          "key": false,
+          "textinfo": "The UI has been generated or captured.",
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "photo",
+        "key": false,
+        "textinfo": "The element is a photography",
+        "children": []
+       },
+       {
+        "name": "data visualization",
+        "key": false,
+        "textinfo": "The element represents data through a diagram, a graph, a chart, etc. ",
+        "children": []
+       },
+       {
+        "name": "clipart/icon",
+        "key": false,
+        "textinfo": "The figure contains some cliparts or icons.",
+        "children": []
+       },
+       {
+        "name": "text",
+        "key": false,
+        "textinfo": "The figure contains some text to describe some elements.",
+        "children": []
+       }
+      ]
+     },
+     {
+      "name": "color",
+      "key": true,
+      "textinfo": "The color used in the figure.",
+      "children": [
+       {
+        "name": "___ignore___",
+        "key": false,
+        "textinfo": "Fake code allowing to force the indicator to be green",
+        "children": []
+       },
+       {
+        "name": "transparency",
+        "key": false,
+        "textinfo": "Has transparency has been used?",
+        "children": []
+       },
+       {
+        "name": "hue",
+        "key": false,
+        "textinfo": "Not specified",
+        "children": [
+         {
+          "name": "colors",
+          "key": false,
+          "textinfo": "The figure used multiple colors.",
+          "children": []
+         },
+         {
+          "name": "grayscale",
+          "key": false,
+          "textinfo": "The figure is based on a grayscale",
+          "children": []
+         },
+         {
+          "name": "monochrome",
+          "key": false,
+          "textinfo": "The figure is only based on 2 colors : a light and dark color (mostly black and white).",
+          "children": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "line style",
+      "key": false,
+      "textinfo": "What line styles have been used for the different objects?",
+      "children": [
+       {
+        "name": "dashed",
+        "key": false,
+        "textinfo": "Dashed lines have been used.",
+        "children": []
+       },
+       {
+        "name": "width",
+        "key": false,
+        "textinfo": "Lines with different width are used.",
+        "children": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Visual techniques",
+    "key": false,
+    "textinfo": "Visual techniques identified across multiple figures.",
+    "children": [
+     {
+      "name": "emphasize",
+      "key": false,
+      "textinfo": "Visual techniques used to visually emphasize, highlight specific information in the illustration.",
+      "children": [
+       {
+        "name": "region",
+        "key": false,
+        "textinfo": "Emphasize a region of the figure.",
+        "children": [
+         {
+          "name": "color area",
+          "key": false,
+          "textinfo": "Enphasize a region of the figure by apply a specific color in the pointed area.",
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "element",
+        "key": false,
+        "textinfo": "Emphasize a element of the figure.",
+        "children": [
+         {
+          "name": "arrows",
+          "key": false,
+          "textinfo": "Arrows have been used to focus on element, mostly by pointing from the outside to the object itself.",
+          "children": []
+         },
+         {
+          "name": "color highlight",
+          "key": false,
+          "textinfo": "A specific color has been used to highlight a specific object.",
+          "children": []
+         },
+         {
+          "name": "enclosing",
+          "key": false,
+          "textinfo": "The focus element is enclosed.",
+          "children": [
+           {
+            "name": "exact contour line",
+            "key": false,
+            "textinfo": "The exact contours of a specific object have been highlighted using a specific line style.",
+            "children": []
+           },
+           {
+            "name": "circle / square",
+            "key": false,
+            "textinfo": "A circle/rectangle shape has been drawn around the focused object.",
+            "children": []
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "background",
+        "key": false,
+        "textinfo": "Strategy used to emphasize the element in the foreground from the background",
+        "children": [
+         {
+          "name": "grayed out / blurred",
+          "key": false,
+          "textinfo": "A blur effect or a specific color with transparency has been applied to the background.",
+          "children": []
+         },
+         {
+          "name": "removed",
+          "key": false,
+          "textinfo": "the highlighted objects have been detoured and the background has been removed.",
+          "children": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "anonymization",
+      "key": false,
+      "textinfo": "Visual techniques used to anonymize specific element in the figure (e.g. users).",
+      "children": [
+       {
+        "name": "blur",
+        "key": false,
+        "textinfo": "Parts of the figure are blurred to not be recognized.",
+        "children": []
+       },
+       {
+        "name": "filling",
+        "key": false,
+        "textinfo": "Parts of the figure are filled with color to not be recognized.",
+        "children": []
+       }
+      ]
+     },
+     {
+      "name": "grouping and linking",
+      "key": false,
+      "textinfo": "Visual techniques used to link/group elements between each others or with extra information outside the figure (e.g. Definitions).",
+      "children": [
+       {
+        "name": "color grouping",
+        "key": false,
+        "textinfo": "Linking/Grouping of elements is made using colors.",
+        "children": []
+       },
+       {
+        "name": "identifiers grouping",
+        "key": false,
+        "textinfo": "Linking/Grouping of elements is made using identifiers (numbers or letters). Line can be used between the identifier and the element.",
+        "children": []
+       },
+       {
+        "name": "grouping lines",
+        "key": false,
+        "textinfo": "Lines or Arrows used to link/group multiple elements inside the figure or extra information outside the figure.",
+        "children": []
+       },
+       {
+        "name": "text annotation",
+        "key": false,
+        "textinfo": "Text attached to an element of a figure (e.g. label, definition) using lines or arrows.",
+        "children": []
+       }
+      ]
+     },
+     {
+      "name": "dynamic",
+      "key": false,
+      "textinfo": "Visual techniques used to describe dynamic content on a static support.",
+      "children": [
+       {
+        "name": "effects",
+        "key": false,
+        "textinfo": "Dynamic style effects",
+        "children": [
+         {
+          "name": "stroboscopic",
+          "key": false,
+          "textinfo": "A stroboscopic effect is used to show the different steps of the motion.",
+          "children": []
+         },
+         {
+          "name": "waves",
+          "key": false,
+          "textinfo": "Waves are used to show that an element is hitting another element.",
+          "children": []
+         },
+         {
+          "name": "motion blur",
+          "key": false,
+          "textinfo": "Blur effect has been used to illustrate motion. The position of the blur can also indicates the path/direction of the movement.",
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "lines and arrows",
+        "key": false,
+        "textinfo": "Geometric shapes are used to help understanding the dynamic illustrated.",
+        "children": [
+         {
+          "name": "trajectories",
+          "key": false,
+          "textinfo": "Shows the motion path of a element in the figure from the beginning to the end.",
+          "children": []
+         },
+         {
+          "name": "direction",
+          "key": false,
+          "textinfo": "Shows the direction of the motion.",
+          "children": []
+         },
+         {
+          "name": "transfer",
+          "key": false,
+          "textinfo": "Shows transition between two states of a model, system.",
+          "children": []
+         },
+         {
+          "name": "projection",
+          "key": false,
+          "textinfo": "Shows the corresponding projection of an object",
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "Contact shapes",
+        "key": false,
+        "textinfo": "Geometric shapes, such as circles, used to represent the region of contact between two elements.",
+        "children": []
+       }
+      ]
+     },
+     {
+      "name": "structure",
+      "key": false,
+      "textinfo": "Visual techniques used to structure an illustration",
+      "children": [
+       {
+        "name": "identifiers",
+        "key": false,
+        "textinfo": "Strategies used to identify, order, different part of the same figure.",
+        "children": [
+         {
+          "name": "numbers",
+          "key": false,
+          "textinfo": "Numbers are used (often in a corner) to order the sequence of frames or the different parts of a figure.",
+          "children": []
+         },
+         {
+          "name": "letters",
+          "key": false,
+          "textinfo": "Letters are used (often in a corner) to order the sequence of frames or the different parts of a figure.",
+          "children": []
+         },
+         {
+          "name": "title",
+          "key": false,
+          "textinfo": "A different title is used to annotate the sub frames.",
+          "children": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "measure",
+      "key": false,
+      "textinfo": "Visual techniques used to illustrate physical units.",
+      "children": [
+       {
+        "name": "Arrows",
+        "key": false,
+        "textinfo": "Arrows are used to indicate angles, physical dimensions.",
+        "children": []
+       },
+       {
+        "name": "Text indicator",
+        "key": false,
+        "textinfo": "Text may simply used to directly show physical dimensions.",
+        "children": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "interactive Scenario",
+    "key": false,
+    "textinfo": "Key elements of an interactive scenario.",
+    "children": [
+     {
+      "name": "purpose",
+      "key": true,
+      "textinfo": "What is the purpose of the figure?",
+      "children": [
+       {
+        "name": "___ignore___",
+        "key": false,
+        "textinfo": "Fake code allowing to force the indicator to be green",
+        "children": []
+       },
+       {
+        "name": "design space",
+        "key": false,
+        "textinfo": "The figure shows a design space, i.e. a set of functionalities, possibilities, commands, use cases available in a system. Figures are usually composed of multiple **independent** frames.",
+        "children": []
+       },
+       {
+        "name": "interaction sequence",
+        "key": false,
+        "textinfo": "The figure shows an interaction sequence (aka storyboard), i.e. a sequence of actions that must be accomplished in a specific order to launch a system command. Figures are usally composed of multiple **dependent** frames.",
+        "children": []
+       },
+       {
+        "name": "interactive system",
+        "key": false,
+        "textinfo": "The figure shows the setup, the system but the interaction between the user and the system is not represented. It is basically a focus on the system itself.",
+        "children": []
+       }
+      ]
+     },
+     {
+      "name": "time",
+      "key": true,
+      "textinfo": "How time is represented in the figure?",
+      "children": [
+       {
+        "name": "___ignore___",
+        "key": false,
+        "textinfo": "Fake code allowing to force the indicator to be green",
+        "children": []
+       },
+       {
+        "name": "moving",
+        "key": false,
+        "textinfo": "Time is evolving accross the figure, i.e. we can see a transition, progression, within the user's actions and/or the system's responses.",
+        "children": []
+       },
+       {
+        "name": "still",
+        "key": false,
+        "textinfo": "we are observing the user and/or the system at a specific moment without any information on the next/previous user's actions or system's responses.",
+        "children": []
+       }
+      ]
+     },
+     {
+      "name": "activity",
+      "key": false,
+      "textinfo": "What are the users doing with the system?.",
+      "children": [
+       {
+        "name": "production",
+        "key": false,
+        "textinfo": "digital content production: programming, text entry",
+        "children": []
+       },
+       {
+        "name": "entertainment",
+        "key": false,
+        "textinfo": "video, music, video games",
+        "children": []
+       },
+       {
+        "name": "medical",
+        "key": false,
+        "textinfo": "",
+        "children": []
+       },
+       {
+        "name": "driving",
+        "key": false,
+        "textinfo": "",
+        "children": []
+       },
+       {
+        "name": "2D/3D creation",
+        "key": false,
+        "textinfo": "2D drawing, 3D modeling, photoshop, illustrator, svg",
+        "children": []
+       },
+       {
+        "name": "fabrication",
+        "key": false,
+        "textinfo": "physical fabrication",
+        "children": []
+       },
+       {
+        "name": "communication",
+        "key": false,
+        "textinfo": "communication or exchange between the users",
+        "children": []
+       },
+       {
+        "name": "data manipulation",
+        "key": false,
+        "textinfo": "maps, charts, numbers",
+        "children": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Users",
+    "key": false,
+    "textinfo": "How are users represented in the figure?",
+    "children": [
+     {
+      "name": "number",
+      "key": false,
+      "textinfo": "The number of users involved in the interaction.",
+      "children": [
+       {
+        "name": "Solo-user",
+        "key": false,
+        "textinfo": "Only one user is interacting with the system.",
+        "children": []
+       },
+       {
+        "name": "Multi-users",
+        "key": false,
+        "textinfo": "Multiple users are interacting with the system",
+        "children": []
+       }
+      ]
+     },
+     {
+      "name": "body part",
+      "key": false,
+      "textinfo": "Which parts of the Human body are represented?",
+      "children": [
+       {
+        "name": "Specific part",
+        "key": false,
+        "textinfo": "A focus is made on a specific part of the body.",
+        "children": [
+         {
+          "name": "hand",
+          "key": false,
+          "textinfo": "A focus is espacially made on user's hands. Nothing else if visible.",
+          "children": []
+         },
+         {
+          "name": "fingers",
+          "key": false,
+          "textinfo": "A focus is especially made on user's fingers. Nothing else is visible.",
+          "children": []
+         },
+         {
+          "name": "head",
+          "key": false,
+          "textinfo": "A focus is especially made on the user's head. Nothing else is visible.",
+          "children": []
+         },
+         {
+          "name": "foot",
+          "key": false,
+          "textinfo": "A focus is especially made on the user's foot. Nothing else is visible.",
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "lower body",
+        "key": false,
+        "textinfo": "Mose of the lower body (legs and feet) is visible.",
+        "children": []
+       },
+       {
+        "name": "upper body",
+        "key": false,
+        "textinfo": "Most of the upper body (torso and arms) is visible",
+        "children": []
+       },
+       {
+        "name": "full body",
+        "key": false,
+        "textinfo": "Most of the body is visible.",
+        "children": []
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Interactive system",
+    "key": false,
+    "textinfo": "Key elements describing an interactive system.",
+    "children": [
+     {
+      "name": "action",
+      "key": false,
+      "textinfo": "How is the user action?",
+      "children": [
+       {
+        "name": "discrete",
+        "key": false,
+        "textinfo": "User's actions are really quick and brief over the time.",
+        "children": [
+         {
+          "name": "Pointing",
+          "key": false,
+          "textinfo": "User is pointing at a target.",
+          "children": []
+         },
+         {
+          "name": "Key press",
+          "key": false,
+          "textinfo": "User is pressing a button.",
+          "children": []
+         },
+         {
+          "name": "Symbolic gesture",
+          "key": false,
+          "textinfo": "User is performing a symbolic gesture.",
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "continuous",
+        "key": false,
+        "textinfo": "The user is continuously interacting with the system.",
+        "children": [
+         {
+          "name": "translating",
+          "key": false,
+          "textinfo": "User is translating an object.",
+          "children": []
+         },
+         {
+          "name": "rotating",
+          "key": false,
+          "textinfo": "User is rotating an object.",
+          "children": []
+         },
+         {
+          "name": "scaling",
+          "key": false,
+          "textinfo": "User is scaling an object.",
+          "children": []
+         },
+         {
+          "name": "scrolling",
+          "key": false,
+          "textinfo": "User is scrolling a view.",
+          "children": []
+         },
+         {
+          "name": "deforming",
+          "key": false,
+          "textinfo": "User is deforming [a part of] the system.",
+          "children": []
+         },
+         {
+          "name": "writing/drawing",
+          "key": false,
+          "textinfo": "",
+          "children": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Interaction type",
+      "key": true,
+      "textinfo": "What is the type of interaction involved?",
+      "children": [
+       {
+        "name": "___ignore___",
+        "key": false,
+        "textinfo": "Fake code allowing to force the indicator to be green",
+        "children": []
+       },
+       {
+        "name": "touch interaction",
+        "key": false,
+        "textinfo": "Interaction relying on a touch sensitive surface.",
+        "children": []
+       },
+       {
+        "name": "mid-air interaction",
+        "key": false,
+        "textinfo": "Interaction is made is the air. The system may involved controllers, tracking.",
+        "children": []
+       },
+       {
+        "name": "distal interaction",
+        "key": false,
+        "textinfo": "Directly interacting with objects from a distance (through intermediate devices or not).",
+        "children": []
+       },
+       {
+        "name": "on body interaction",
+        "key": false,
+        "textinfo": "The interactive system is on the Human body.",
+        "children": []
+       },
+       {
+        "name": "computer interaction ",
+        "key": false,
+        "textinfo": "Classic computer interaction (meaning keyboard/touchpad/mouse).",
+        "children": []
+       },
+       {
+        "name": "tangible interaction",
+        "key": false,
+        "textinfo": "Interaction with the system is made though tangible objects.",
+        "children": []
+       },
+       {
+        "name": "controllers interaction",
+        "key": false,
+        "textinfo": "Interaction with the system is made with controllers. (joysticks, tv remotes)",
+        "children": []
+       },
+       {
+        "name": "pen interaction",
+        "key": false,
+        "textinfo": "Interaction with the system is made with a pen.",
+        "children": []
+       },
+       {
+        "name": "gaze interaction",
+        "key": false,
+        "textinfo": "Interaction with the system is made with the eyes.",
+        "children": []
+       }
+      ]
+     },
+     {
+      "name": "input channel",
+      "key": true,
+      "textinfo": "How is the user actually interacting with the system.",
+      "children": [
+       {
+        "name": "___ignore___",
+        "key": false,
+        "textinfo": "Fake code allowing to force the indicator to be green",
+        "children": []
+       },
+       {
+        "name": "tracking based",
+        "key": false,
+        "textinfo": "User is tracked by the system.",
+        "children": [
+         {
+          "name": "outside in",
+          "key": false,
+          "textinfo": "User is tracked by the system with external sensors.",
+          "children": []
+         },
+         {
+          "name": "inside out",
+          "key": false,
+          "textinfo": "User is tracked by the system with sensors on / inside him.",
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "device based",
+        "key": false,
+        "textinfo": "The user is interacting with the system through a manipulable device.",
+        "children": [
+         {
+          "name": "mobile devices",
+          "key": false,
+          "textinfo": "The user is interacting with the system by using a mobile device: smartphones, tablets, smartwatches, etc.",
+          "children": []
+         },
+         {
+          "name": "large surfaces",
+          "key": false,
+          "textinfo": "The user is interacting with the system though big screens: screen on a wall, touch table, tv, etc.",
+          "children": []
+         },
+         {
+          "name": "desktop devices",
+          "key": false,
+          "textinfo": "The user is interacting with the system through desktop devices: mouse, keyboad, touchpad on a desk, etc. ",
+          "children": []
+         },
+         {
+          "name": "laptop devices",
+          "key": false,
+          "textinfo": "The user is interacting with the system through laptop devices: integrated keyboad, integrated touchpad, etc.",
+          "children": []
+         },
+         {
+          "name": "controllers",
+          "key": false,
+          "textinfo": "The user is interacting with the system using a controllers: tv remote, game controller, joystick, etc.",
+          "children": []
+         },
+         {
+          "name": "tangible objects",
+          "key": false,
+          "textinfo": "Not specified",
+          "children": []
+         },
+         {
+          "name": "AR",
+          "key": false,
+          "textinfo": "Not specified",
+          "children": []
+         },
+         {
+          "name": "VR",
+          "key": false,
+          "textinfo": "Not specified",
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "sound based",
+        "key": false,
+        "textinfo": "The system is listening to the sounds emitted by the user",
+        "children": [
+         {
+          "name": "speech input",
+          "key": false,
+          "textinfo": "The user is interacting with the system by speaking through a microphone",
+          "children": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "output modality",
+      "key": true,
+      "textinfo": "Not specified",
+      "children": [
+       {
+        "name": "___ignore___",
+        "key": false,
+        "textinfo": "Fake code allowing to force the indicator to be green",
+        "children": []
+       },
+       {
+        "name": "haptic",
+        "key": false,
+        "textinfo": "There is an haptic response from the system.",
+        "children": []
+       },
+       {
+        "name": "visual",
+        "key": false,
+        "textinfo": "Response from the system involves a screen, a display.",
+        "children": [
+         {
+          "name": "large displays",
+          "key": false,
+          "textinfo": "Visual feedback through large displays: : tv, wall screen, touchtable",
+          "children": []
+         },
+         {
+          "name": "computer displays",
+          "key": false,
+          "textinfo": "Visual feedback through computer screens : laptop, desktop, car embedded display",
+          "children": []
+         },
+         {
+          "name": "mobile displays",
+          "key": false,
+          "textinfo": "Visual feedback through mobile displays: smartphones, tablets, smartwatches",
+          "children": []
+         },
+         {
+          "name": "projected displays",
+          "key": false,
+          "textinfo": "Visual feedback through a projected image on a surface",
+          "children": []
+         },
+         {
+          "name": "head mounted displays",
+          "key": false,
+          "textinfo": "AR, VR displays",
+          "children": []
+         },
+         {
+          "name": "lights",
+          "key": false,
+          "textinfo": "lamps, leds, any bulbs",
+          "children": []
+         }
+        ]
+       },
+       {
+        "name": "audible",
+        "key": false,
+        "textinfo": "The response from the system is audible.",
+        "children": [
+         {
+          "name": "sound based",
+          "key": false,
+          "textinfo": "The system emits specific sounds.",
+          "children": []
+         },
+         {
+          "name": "speech output",
+          "key": false,
+          "textinfo": "The system speaks to the user in his language.",
+          "children": []
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Situation",
+      "key": false,
+      "textinfo": "Where does the interaction take place?",
+      "children": [
+       {
+        "name": "Desktop",
+        "key": false,
+        "textinfo": "On a classic desk/table (Mostly involving desktop computers, keyboard, mouse etc.)",
+        "children": []
+       },
+       {
+        "name": "Public/private transport",
+        "key": false,
+        "textinfo": "In a car, bus, plane, on a bike, etc.",
+        "children": []
+       },
+       {
+        "name": "Outdoors",
+        "key": false,
+        "textinfo": "Park, streets",
+        "children": []
+       },
+       {
+        "name": "Private indoors",
+        "key": false,
+        "textinfo": "At the office, at work, at home, etc.",
+        "children": []
+       },
+       {
+        "name": "Public indoors",
+        "key": false,
+        "textinfo": "Malls, stations, museums, at gym. Might involve a crowded place",
+        "children": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "coding": {},
+ "comments": {
+  "compressed-CHI18_paper86-Figure9-1 2.png": ""
+ },
+ "ratings": {},
+ "confidences": {},
+ "dois": {}
+}
