@@ -21,7 +21,7 @@ latex bib reference (coming)
 
 ### Taxonomy Visualisation tool
 
-[![OpenVisualisationTool](https://img.shields.io/badge/Open_the_online_Visualisation_tool-green)](https://expe.lille.inria.fr/taxonomy/TaxonomyVisualisation/)
+[![OpenVisualisationTool](https://img.shields.io/badge/Open_the_online_Visualisation_tool-green)](https://ns.inria.fr/loki/taxonomy/TaxonomyVisualisation/)
 
 ##### Presentation
 
@@ -39,7 +39,7 @@ To locally use the tool, you have to host the entire content of this folder on a
 
 ### Taxonomy Explorer tool
 
-[![OpenExplorerTool](https://img.shields.io/badge/Open_the_online_Explorer_tool-green)](https://expe.lille.inria.fr/taxonomy/TaxonomyExplorer/)
+[![OpenExplorerTool](https://img.shields.io/badge/Open_the_online_Explorer_tool-green)](https://ns.inria.fr/loki/taxonomy/TaxonomyExplorer/)
 
 ##### Presentation
 
