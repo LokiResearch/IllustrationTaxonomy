@@ -13,7 +13,7 @@ If you use one of these tools or the provided data for acedemic purposes, please
 
 [![DOI](https://img.shields.io/badge/doi-10.1145/3411764.3445586-blue)]( https://doi.org/10.1145/3411764.3445586)
 
-`
+```
 @inbook{10.1145/3411764.3445586,
   author = {Antoine, Axel and Malacria, Sylvain and Marquardt, Nicolai and Casiez, G\'{e}ry},
   title = {Interaction Illustration Taxonomy: Classification of Styles and Techniques for Visually Representing Interaction Scenarios},
@@ -22,24 +22,11 @@ If you use one of these tools or the provided data for acedemic purposes, please
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
   url = {https://doi.org/10.1145/3411764.3445586},
-  abstract = { Static illustrations are ubiquitous means to represent interaction scenarios. Across
-  papers and reports, these visuals demonstrate people’s use of devices, explain systems,
-  or show design spaces. Creating such figures is challenging, and very little is known
-  about the overarching strategies for visually representing interaction scenarios.
-  To mitigate this task, we contribute a unified taxonomy of design elements that compose
-  such figures. In particular, we provide a detailed classification of Structural and
-  Interaction strategies, such as composition, visual techniques, dynamics, representation
-  of users, and many others – all in context of the type of scenarios. This taxonomy
-  can inform researchers’ choices when creating new figures, by providing a concise
-  synthesis of visual strategies, and revealing approaches they were not aware of before.
-  Furthermore, to support the community for creating further taxonomies, we also provide
-  three open-source software facilitating the coding process and visual exploration
-  of the coding scheme.},
   booktitle = {Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
   articleno = {188},
   numpages = {22}
 }
-`
+```
 
 ## Tools
 
