@@ -7,7 +7,7 @@
 
 ## About
 This repository contains the code for the three tools and associated data used to elaborate our taxonomy on interaction illustrations.
-Please refer to the publication for more details: [Link to the HAL entry (coming)](). 
+Please refer to the publication for more details: [Link to the HAL entry](https://hal.inria.fr/hal-03137867). 
 
 If you use one of these tools or the provided data for acedemic purposes, please cite our paper.
 
